@@ -2844,11 +2844,15 @@ img {
   padding-bottom: 15px;
 }
 
+.ec-item2-text .sub {
+  width: 314px;
+}
+
 @media print, screen and (min-width: 1100px) {
   .ec-item2-text {
     border: 2px solid #fff;
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: 50px;
+    padding-bottom: 55px;
   }
 }
 
