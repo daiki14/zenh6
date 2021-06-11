@@ -579,7 +579,7 @@ img {
   border-top: 1px solid #000;
   content: "";
   margin-left: 1em;
-  width: 100%;
+  width: 47%;
 }
 
 @media print, screen and (min-width: 1100px) {
