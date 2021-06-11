@@ -219,7 +219,7 @@ img {
 }
 
 .top-inner {
-  background-image: url(/img/top_sp.png);
+  background-image: url(../img/top_sp.png);
   background-size: cover;
   background-position: center;
   width: 90%;
@@ -231,7 +231,7 @@ img {
 @media print, screen and (min-width: 1100px) {
   .top-inner {
     margin: 0 auto;
-    background-image: url(/img/top.jpg);
+    background-image: url(../img/top.jpg);
     width: 97%;
     height: 100%;
     background-size: cover;
@@ -494,7 +494,7 @@ img {
 }
 
 .image-inner {
-  background-image: url(/img/parallax2.jpg);
+  background-image: url(../img/parallax2.jpg);
   height: 303px;
   width: 100%;
   background-position: center;
@@ -504,7 +504,7 @@ img {
 
 @media print, screen and (min-width: 1100px) {
   .image-inner {
-    background-image: url(/img/concept.jpg);
+    background-image: url(../img/concept.jpg);
     height: 385px;
     width: 100%;
     background-size: cover;
@@ -1192,7 +1192,7 @@ img {
 }
 
 .color {
-  background-image: url(/img/backgray.png);
+  background-image: url(../img/backgray.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1967,7 +1967,7 @@ img {
 
 @media print, screen and (min-width: 1100px) {
   .material {
-    background-image: url(/img/material-bg.jpg);
+    background-image: url(../img/material-bg.jpg);
     height: 644px;
     width: 100%;
     padding-bottom: 0;
@@ -2090,7 +2090,7 @@ img {
 }
 
 .vision {
-  background-image: url(/img/vision:history-bg.png);
+  background-image: url(../img/vision:history-bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
