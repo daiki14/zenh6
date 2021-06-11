@@ -2925,12 +2925,14 @@ img {
   height: 155px;
   background-color: #363636;
   color: #fff;
+  margin-bottom: 15px;
 }
 
 @media print, screen and (min-width: 1100px) {
   .ec-item3 {
     width: 342px;
     height: 304px;
+    margin-bottom: 0;
   }
 }
 
