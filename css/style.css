@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   ._sp {
     display: none;
   }
@@ -9,7 +9,7 @@
   display: none;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   ._pc {
     display: block;
   }
@@ -50,7 +50,7 @@ img {
   padding-bottom: 23px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .header-fixed {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -61,7 +61,7 @@ img {
   margin-left: 20px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .header-logo {
     margin-left: 50px;
   }
@@ -71,7 +71,7 @@ img {
   width: 57px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .header-logo img {
     width: 90px;
   }
@@ -89,7 +89,7 @@ img {
   visibility: hidden;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .nav {
     width: initial;
     background: transparent;
@@ -124,7 +124,7 @@ img {
   margin-right: 30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .nav-btn {
     display: none;
   }
@@ -181,7 +181,7 @@ img {
   padding-bottom: 315px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -200,7 +200,7 @@ img {
   margin-top: 30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .nav-list .item + .item {
     margin-top: 0;
     margin-left: 40px;
@@ -212,7 +212,7 @@ img {
   font-size: 14px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .nav-list a {
     font-size: 13px;
   }
@@ -223,7 +223,7 @@ img {
 }
 
 .top-inner {
-  background-image: url(../img/top_sp.png);
+  background-image: url(../img/top-sp.jpg);
   background-size: cover;
   background-position: center;
   width: 90%;
@@ -232,7 +232,7 @@ img {
   margin-top: 62px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .top-inner {
     margin: 0 auto;
     background-image: url(../img/top.jpg);
@@ -250,7 +250,7 @@ img {
   margin-left: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .top-text {
     text-align: center;
     padding-top: 184px;
@@ -267,7 +267,7 @@ img {
   width: 150px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .top .ttl {
     margin-right: 250px;
     width: 250px;
@@ -285,7 +285,7 @@ img {
   margin-top: 37px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .top .subttl {
     font-family: "游ゴシック体", YuGothic,serif;
     text-align: right;
@@ -310,7 +310,7 @@ img {
   margin-top: 36px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .top .desc {
     font-family: "游ゴシック体", YuGothic,serif;
     color: #fff;
@@ -335,10 +335,10 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 85%;
+  bottom: 2%;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .main-btn {
     bottom: 10%;
     display: block;
@@ -363,7 +363,7 @@ img {
   display: none;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .main-btn ._pc {
     display: block;
   }
@@ -373,7 +373,7 @@ img {
   display: block;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .main-btn ._sp {
     display: none;
   }
@@ -395,7 +395,7 @@ img {
           box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .main-btn2 {
     font-family: "游ゴシック体", YuGothic,serif;
   }
@@ -415,7 +415,7 @@ img {
   padding-bottom: 45px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .concept {
     padding-top: 159px;
     padding-bottom: 135px;
@@ -427,7 +427,7 @@ img {
 }
 
 .concept-inner .ttl {
-  border-bottom: 3px solid #000;
+  border-bottom: 2px solid #000;
   width: 82.36px;
   font-family: 'Barlow', sans-serif;
   text-align: center;
@@ -439,7 +439,7 @@ img {
   padding-bottom: 2.4px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .concept-inner .ttl {
     border-bottom: 3px solid #000;
     width: 121.21px;
@@ -464,7 +464,7 @@ img {
   font-family: "Noto Sans JP";
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .concept-inner .subttl {
     font-family: "游ゴシック体", YuGothic,serif;
     text-align: center;
@@ -486,7 +486,7 @@ img {
   font-family: "Noto Sans JP";
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .concept-inner .desc {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 14px;
@@ -507,7 +507,7 @@ img {
   background-repeat: no-repeat;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .image-inner {
     background-image: url(../img/concept.jpg);
     height: 385px;
@@ -525,7 +525,7 @@ img {
   padding-bottom: 44px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about {
     padding-top: 130px;
     padding-bottom: 155px;
@@ -536,7 +536,7 @@ img {
   padding: 0 0 0 30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-inner {
     max-width: 1100px;
     margin-left: auto;
@@ -552,7 +552,7 @@ img {
   text-align: justify;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -575,7 +575,7 @@ img {
   display: flex;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-ttl {
     font-size: 14px;
   }
@@ -588,7 +588,7 @@ img {
   width: 47%;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-ttl::after {
     width: 20em;
   }
@@ -606,7 +606,7 @@ img {
   display: flex;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-ttl2 {
     font-size: 14px;
   }
@@ -619,7 +619,7 @@ img {
   width: 100%;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-ttl2::after {
     width: 20em;
   }
@@ -630,7 +630,7 @@ img {
   text-align: justify;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-item1 {
     width: 50%;
   }
@@ -646,7 +646,7 @@ img {
   font-family: "Noto Sans JP";
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-item1 h3 {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 30px;
@@ -664,7 +664,7 @@ img {
   margin-top: 37px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-item2 {
     width: 55%;
     margin-top: 0;
@@ -677,7 +677,7 @@ img {
   width: 320px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-item2 img {
     width: 100%;
   }
@@ -693,7 +693,7 @@ img {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-item3 {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 16px;
@@ -709,7 +709,7 @@ img {
   margin-right: 30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-item4 {
     margin-top: 35px;
     padding: 31px 21px 31px 29px;
@@ -731,7 +731,7 @@ img {
   font-family: "Noto Sans JP";
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-item4-text2 {
     margin-top: 23px;
   }
@@ -749,7 +749,7 @@ img {
   margin-right: 30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-item5-text3 {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 15px;
@@ -768,13 +768,13 @@ img {
   margin-top: 48px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-wrap:nth-child(2n) .about-box {
     margin-top: 120px;
   }
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-wrap:nth-child(2n) .chocho-box {
     position: absolute;
     top: 26%;
@@ -786,13 +786,13 @@ img {
   margin-left: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .about-wrap:nth-child(2n) .about-item1 {
     margin-left: 76px;
   }
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .chocho-box {
     position: absolute;
     top: 26%;
@@ -804,7 +804,7 @@ img {
   padding-bottom: 70px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product {
     padding-bottom: 240px;
   }
@@ -816,7 +816,7 @@ img {
   margin: 0 auto;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product .inner {
     padding: 150px 0 0 0;
   }
@@ -832,12 +832,15 @@ img {
   font-weight: bold;
   font-family: 'Barlow';
   letter-spacing: .15em;
+  margin-top: 15px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product h2 {
     font-size: 22px;
     letter-spacing: .1em;
+    position: relative;
+    margin-top: 20px;
   }
 }
 
@@ -848,10 +851,12 @@ img {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product h2 span {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 12px;
+    position: absolute;
+    top: 6px;
   }
 }
 
@@ -875,7 +880,7 @@ img {
   letter-spacing: .05em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-ttl h3 {
     font-size: 36px;
   }
@@ -889,7 +894,7 @@ img {
   line-height: 1.705;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-ttl p {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 17px;
@@ -903,7 +908,7 @@ img {
   margin: -150px 15px 0 15px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-sp-wrap {
     background: transparent;
     padding: 0;
@@ -923,7 +928,7 @@ img {
   position: relative;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-table {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -944,7 +949,7 @@ img {
   width: 100%;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-table table {
     font-size: 14px;
     width: 32%;
@@ -963,7 +968,7 @@ img {
   font-weight: normal;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-table table th {
     font-family: "游ゴシック体", YuGothic,serif;
   }
@@ -978,15 +983,11 @@ img {
   padding-left: 40px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-table table td {
     font-family: "游ゴシック体", YuGothic,serif;
     padding-left: 0;
   }
-}
-
-.img-wrap1, .img-wrap2 {
-  width: 30%;
 }
 
 .product-img {
@@ -1002,7 +1003,7 @@ img {
   margin-top: 26px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-img {
     position: absolute;
     top: 20%;
@@ -1023,13 +1024,13 @@ img {
   z-index: 2;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-img2 {
     position: absolute;
     top: 20%;
-    right: 52%;
+    right: 45%;
     margin-top: 0;
-    margin-left: 150px;
+    margin-left: 10%;
   }
 }
 
@@ -1040,7 +1041,7 @@ img {
   z-index: 2;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .img-wrap1 {
     width: 50%;
     margin-top: 40px;
@@ -1059,7 +1060,7 @@ img {
   z-index: 2;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .img-wrap2 {
     width: 50%;
     margin-left: 20px;
@@ -1079,7 +1080,7 @@ img {
   margin-top: 100px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-box:nth-child(3) .product-table {
     margin-left: 0;
     margin-right: auto;
@@ -1096,7 +1097,7 @@ img {
   display: inline-block;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-box:nth-child(3) .product-ttl {
     top: 70px;
     left: 55%;
@@ -1110,7 +1111,7 @@ img {
   letter-spacing: .05em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-box:nth-child(3) .product-ttl h3 {
     font-size: 36px;
   }
@@ -1123,29 +1124,9 @@ img {
   line-height: 1.705;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-box:nth-child(3) .product-ttl p {
     font-size: 17px;
-  }
-}
-
-.product-box:nth-child(3) .product-img {
-  position: relative;
-  top: 0;
-  right: 0;
-  z-index: 2;
-  margin: 30px 0;
-}
-
-@media print, screen and (min-width: 1100px) {
-  .product-box:nth-child(3) .product-img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    top: 20%;
-    right: 50%;
-    z-index: 2;
   }
 }
 
@@ -1154,7 +1135,7 @@ img {
   left: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-box:nth-child(3) table {
     left: 68%;
   }
@@ -1166,16 +1147,26 @@ img {
   margin-right: 5px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-box:nth-child(3) .img-wrap1 {
     width: 50%;
     margin-top: -100px;
+    margin-right: 0;
   }
 }
 
 .product-box:nth-child(3) .img-wrap1 img {
+  width: 141px;
+  height: 233px;
   -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media print, screen and (min-width: 768px) {
+  .product-box:nth-child(3) .img-wrap1 img {
+    width: 279px;
+    height: 462px;
+  }
 }
 
 .product-box:nth-child(3) .img-wrap2 {
@@ -1184,17 +1175,26 @@ img {
   margin-top: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .product-box:nth-child(3) .img-wrap2 {
     width: 50%;
-    margin-left: 20px;
     margin-top: 30px;
+    margin-left: 0;
   }
 }
 
-.product-box:nth-child(3) img {
+.product-box:nth-child(3) .img-wrap2 img {
+  width: 141px;
+  height: 233px;
   -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media print, screen and (min-width: 768px) {
+  .product-box:nth-child(3) .img-wrap2 img {
+    width: 279px;
+    height: 462px;
+  }
 }
 
 .color {
@@ -1207,7 +1207,7 @@ img {
   height: 1250px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color {
     padding-top: 128px;
     padding-bottom: 0;
@@ -1230,7 +1230,7 @@ img {
   text-align: center;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color-ttl {
     font-size: 111px;
     font-family: 'Barlow', sans-serif;
@@ -1255,7 +1255,7 @@ img {
   margin-top: 13px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color-subttl {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 20px;
@@ -1268,7 +1268,7 @@ img {
   }
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color-image {
     position: absolute;
     top: -230px;
@@ -1287,7 +1287,7 @@ img {
   z-index: -1;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color-image img {
     width: 594px;
   }
@@ -1306,7 +1306,7 @@ img {
   padding-bottom: 60px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color-footer-cont {
     background-color: #fff;
     width: 1100px;
@@ -1318,7 +1318,7 @@ img {
   }
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1336,7 +1336,7 @@ img {
   border-bottom: 1px solid #C7C7C7;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color-item {
     padding-top: 0;
     margin-top: 66px;
@@ -1352,7 +1352,7 @@ img {
   border-right: none;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color-item:last-child {
     border-right: none;
   }
@@ -1368,7 +1368,7 @@ img {
   margin-right: auto;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color-item .circle1 {
     width: 36px;
     height: 36px;
@@ -1431,7 +1431,7 @@ img {
   line-height: 1.555;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color-desc {
     font-family: "游ゴシック体", YuGothic,serif;
     margin-top: 34px;
@@ -1457,7 +1457,7 @@ img {
   top: -150px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .color-footer-text {
     font-family: "游ゴシック体", YuGothic,serif;
     text-align: center;
@@ -1475,7 +1475,7 @@ img {
   height: 1530px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment {
     padding-top: 119px;
     padding-bottom: 150px;
@@ -1489,7 +1489,7 @@ img {
   text-align: center;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment .inner {
     max-width: 100%;
     padding: 0;
@@ -1505,7 +1505,7 @@ img {
   letter-spacing: .3em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment h2 {
     font-size: 18px;
     margin-bottom: 106px;
@@ -1519,7 +1519,7 @@ img {
   margin-top: 19px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment h2 span {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 37px;
@@ -1533,7 +1533,7 @@ img {
   z-index: 1;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-img {
     left: 10%;
     padding: 0;
@@ -1556,7 +1556,7 @@ img {
   letter-spacing: .15em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-img p {
     position: absolute;
     top: -70px;
@@ -1576,7 +1576,7 @@ img {
   -webkit-text-stroke: 1px #000;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-img p span {
     font-family: "游ゴシック体", YuGothic,serif;
     display: block;
@@ -1596,7 +1596,7 @@ img {
           align-items: center;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1619,7 +1619,7 @@ img {
   z-index: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-text-wrap {
     background-color: #fff;
     width: 60%;
@@ -1638,14 +1638,14 @@ img {
           transform: translate(0, 0);
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-text {
     display: inline-block;
     position: relative;
     top: 50%;
-    left: 30%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    left: 10%;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
   }
 }
 
@@ -1660,7 +1660,7 @@ img {
   text-align: justify;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-text h3 {
     border-left: 3px solid #000;
     padding-left: 30px;
@@ -1678,7 +1678,7 @@ img {
   margin-top: 5px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-text h3 span {
     font-family: "游ゴシック体", YuGothic,serif;
     display: block;
@@ -1695,8 +1695,82 @@ img {
   text-align: justify;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-text p {
+    font-family: "游ゴシック体", YuGothic,serif;
+    font-size: 15px;
+    line-height: 2.3;
+  }
+}
+
+.commitment-text2 {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+@media print, screen and (min-width: 768px) {
+  .commitment-text2 {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+.commitment-text2 h3 {
+  font-family: "Barlow";
+  border-left: 3px solid #000;
+  padding-left: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  line-height: 1;
+  letter-spacing: .15em;
+  text-align: justify;
+}
+
+@media print, screen and (min-width: 768px) {
+  .commitment-text2 h3 {
+    border-left: 3px solid #000;
+    padding-left: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height: 1;
+    letter-spacing: .15em;
+  }
+}
+
+.commitment-text2 h3 span {
+  font-family: 'Noto Sans JP', sans-serif;
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+@media print, screen and (min-width: 768px) {
+  .commitment-text2 h3 span {
+    font-family: "游ゴシック体", YuGothic,serif;
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+.commitment-text2 p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  line-height: 2;
+  letter-spacing: .025em;
+  text-align: justify;
+}
+
+@media print, screen and (min-width: 768px) {
+  .commitment-text2 p {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 15px;
     line-height: 2.3;
@@ -1712,7 +1786,7 @@ img {
           flex-direction: row-reverse;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-box:nth-child(3) {
     margin-top: 100px;
     -webkit-box-orient: horizontal;
@@ -1728,7 +1802,7 @@ img {
   left: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-box:nth-child(3) .commitment-img {
     position: relative;
     left: -10%;
@@ -1750,7 +1824,7 @@ img {
   text-align: center;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .commitment-box:nth-child(3) .commitment-img p {
     position: absolute;
     top: -70px;
@@ -1768,7 +1842,7 @@ img {
   margin-bottom: -60px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit {
     padding-top: 152px;
     padding-bottom: 164px;
@@ -1791,8 +1865,9 @@ img {
   letter-spacing: .15em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-ttl {
+    position: relative;
     font-size: 22px;
     margin-top: 20px;
     letter-spacing: .1em;
@@ -1807,10 +1882,12 @@ img {
   font-weight: bold;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-ttl span {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 12px;
+    position: absolute;
+    top: 6px;
   }
 }
 
@@ -1818,7 +1895,7 @@ img {
   padding: 0 30px 0 30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-inner {
     padding: 0;
     max-width: 1100px;
@@ -1831,7 +1908,7 @@ img {
   margin-top: 23px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1844,7 +1921,7 @@ img {
   }
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-item:nth-child(1) {
     position: relative;
     top: 110px;
@@ -1856,7 +1933,7 @@ img {
   top: -30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-item:nth-child(2) {
     top: 0;
   }
@@ -1867,7 +1944,7 @@ img {
   top: -30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-item:nth-child(3) {
     position: relative;
     top: 110px;
@@ -1879,7 +1956,7 @@ img {
   top: -30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-item:nth-child(4) {
     top: 0;
   }
@@ -1890,7 +1967,7 @@ img {
   top: -60px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-item:nth-child(5) {
     position: relative;
     top: 85px;
@@ -1902,13 +1979,13 @@ img {
   top: -60px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-item:nth-child(6) {
     top: 0;
   }
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-item:nth-child(odd) {
     margin-right: 44px;
   }
@@ -1928,7 +2005,7 @@ img {
   left: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-desc p {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 26px;
@@ -1950,7 +2027,7 @@ img {
   left: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .benefit-desc2 p {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 26px;
@@ -1971,7 +2048,7 @@ img {
   padding-bottom: 43px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .material {
     background-image: url(../img/material-bg.jpg);
     height: 644px;
@@ -1987,7 +2064,7 @@ img {
   padding: 0 30px 0 30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .material-inner {
     max-width: 1100px;
     margin-right: auto;
@@ -2006,7 +2083,7 @@ img {
           transform: translateY(-50%);
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .material-text {
     border-top: 1px solid #fff;
     width: 509px;
@@ -2019,7 +2096,7 @@ img {
   margin-top: 24px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .material-text img {
     display: none;
     margin-top: 0;
@@ -2035,11 +2112,12 @@ img {
   margin-top: 14.5px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .material-ttl {
     color: #fff;
     font-size: 22px;
     margin-top: 20.1px;
+    position: relative;
   }
 }
 
@@ -2050,10 +2128,12 @@ img {
   letter-spacing: .1em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .material-ttl > span {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 12px;
+    position: absolute;
+    top: 6px;
   }
 }
 
@@ -2066,7 +2146,7 @@ img {
   margin-top: 23px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .material-subttl {
     font-family: "游ゴシック体", YuGothic,serif;
     color: #fff;
@@ -2084,7 +2164,7 @@ img {
   margin-top: 11px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .material-desc {
     font-family: "游ゴシック体", YuGothic,serif;
     color: #fff;
@@ -2106,7 +2186,7 @@ img {
   position: relative;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision {
     padding-top: 163px;
     padding-bottom: 154px;
@@ -2140,7 +2220,7 @@ img {
   letter-spacing: .1em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-ttl {
     font-size: 43px;
   }
@@ -2156,7 +2236,7 @@ img {
   letter-spacing: .025em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-subttl {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 17px;
@@ -2166,7 +2246,7 @@ img {
   }
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2189,7 +2269,7 @@ img {
   margin-right: auto;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-item1 {
     width: 100%;
     margin-right: 32px;
@@ -2211,7 +2291,7 @@ img {
   margin-top: 28px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-item1 .main {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 20px;
@@ -2227,7 +2307,7 @@ img {
   margin-top: 21px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-item1 .sub {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 14px;
@@ -2248,7 +2328,7 @@ img {
   margin-right: auto;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-item2 {
     width: 100%;
     margin-right: 32px;
@@ -2270,7 +2350,7 @@ img {
   margin-top: 28px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-item2 .main {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 20px;
@@ -2286,7 +2366,7 @@ img {
   margin-top: 21px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-item2 .sub {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 14px;
@@ -2299,7 +2379,7 @@ img {
   margin: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-text1 {
     width: 309px;
     margin-top: 62px;
@@ -2311,7 +2391,7 @@ img {
   margin: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-text2 {
     width: 309px;
     margin-top: 50px;
@@ -2326,7 +2406,7 @@ img {
   margin-top: 39px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-img1 {
     width: 114.33px;
     height: 116.25px;
@@ -2346,7 +2426,7 @@ img {
   margin-top: 36px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-img2 {
     width: 114.33px;
     height: 116.25px;
@@ -2369,7 +2449,7 @@ img {
   letter-spacing: .025em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .vision-footer {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 17px;
@@ -2386,7 +2466,7 @@ img {
   padding-bottom: 75px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice {
     padding-top: 147.9px;
     padding-bottom: 135.8px;
@@ -2399,9 +2479,9 @@ img {
   border-top: 2px solid #000;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice hr {
-    border-top: 1px solid #000;
+    border-top: 2px solid #000;
   }
 }
 
@@ -2414,8 +2494,9 @@ img {
   letter-spacing: .1em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-ttl {
+    position: relative;
     font-size: 22px;
     margin-top: 20px;
   }
@@ -2428,10 +2509,12 @@ img {
   letter-spacing: .1em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-ttl span {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 12px;
+    position: absolute;
+    top: 6px;
   }
 }
 
@@ -2439,7 +2522,7 @@ img {
   padding: 0 30px 0 30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-inner {
     max-width: 1100px;
     margin-left: auto;
@@ -2456,7 +2539,7 @@ img {
   padding: 9px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-item {
     width: 571px;
     height: 281px;
@@ -2467,11 +2550,11 @@ img {
 }
 
 .uservoice-item hr {
-  border: 1px solid #000;
+  border: 2px solid #000;
   width: 90%;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-item hr {
     width: 100%;
   }
@@ -2482,7 +2565,7 @@ img {
   height: 179px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-item img {
     margin-top: 15px;
     margin-left: 15px;
@@ -2496,7 +2579,7 @@ img {
   display: none;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-item ._pc {
     display: block;
   }
@@ -2506,7 +2589,7 @@ img {
   display: block;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-item ._sp {
     display: none;
   }
@@ -2516,7 +2599,7 @@ img {
   margin-right: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-text {
     margin-right: 38.6px;
   }
@@ -2533,7 +2616,7 @@ img {
   padding-bottom: 16px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-text .name {
     margin-top: 49px;
     margin-bottom: 27px;
@@ -2555,7 +2638,7 @@ img {
   font-size: 18px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-text .star5 {
     margin-left: 8px;
     font-size: 16px;
@@ -2578,7 +2661,7 @@ img {
   color: #B2A79C;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-text .star5::after {
     position: absolute;
   }
@@ -2594,7 +2677,7 @@ img {
   padding: 0 14px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .uservoice-text .desc {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 15px;
@@ -2646,7 +2729,7 @@ img {
   text-align: center;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-inner {
     max-width: 1100px;
     margin-left: auto;
@@ -2662,7 +2745,7 @@ img {
   bottom: -40px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-ttl {
     bottom: 0;
   }
@@ -2672,7 +2755,7 @@ img {
   width: 312px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-ttl img {
     width: 770px;
   }
@@ -2687,7 +2770,7 @@ img {
   margin-bottom: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2707,7 +2790,7 @@ img {
   margin-bottom: 8px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item1 {
     width: 342px;
     height: 304px;
@@ -2721,7 +2804,7 @@ img {
   margin-top: 16.1px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item1 hr {
     margin-top: 26.2px;
   }
@@ -2734,7 +2817,7 @@ img {
   letter-spacing: .1em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item1 .main {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 30px;
@@ -2749,7 +2832,7 @@ img {
   margin-top: 18.9px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item1 .sub {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 41px;
@@ -2771,7 +2854,7 @@ img {
   padding-bottom: 27px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item1-text {
     border: 2px solid #fff;
     padding-top: 48px;
@@ -2789,7 +2872,7 @@ img {
   margin-bottom: 8px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item2 {
     width: 342px;
     height: 304px;
@@ -2803,7 +2886,7 @@ img {
   margin-top: 14px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item2 hr {
     margin-top: 26px;
   }
@@ -2816,7 +2899,7 @@ img {
   letter-spacing: .1em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item2 .main {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 30px;
@@ -2831,11 +2914,11 @@ img {
   margin-top: 12.9px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item2 .sub {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 72px;
-    margin-top: 49.7px;
+    margin-top: 45px;
   }
 }
 
@@ -2853,10 +2936,10 @@ img {
   padding-bottom: 13px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item2-text {
     border: 2px solid #fff;
-    padding-top: 50px;
+    padding-top: 55px;
     padding-bottom: 55px;
   }
 }
@@ -2865,9 +2948,9 @@ img {
   width: 236px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item2-text .sub {
-    width: 314px;
+    width: 300px;
   }
 }
 
@@ -2882,7 +2965,7 @@ img {
   z-index: 2;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec .recommend {
     width: 80px;
     height: 80px;
@@ -2909,7 +2992,7 @@ img {
   display: inline-block;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec .recommend h4 {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 15px;
@@ -2928,7 +3011,7 @@ img {
   margin-bottom: 15px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item3 {
     width: 342px;
     height: 304px;
@@ -2942,7 +3025,7 @@ img {
   margin-top: 18px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item3 hr {
     font-size: 26px;
   }
@@ -2955,7 +3038,7 @@ img {
   letter-spacing: .1em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item3 .main {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 30px;
@@ -2971,7 +3054,7 @@ img {
   margin-top: 16.9px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item3 .sub {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 50px;
@@ -2993,7 +3076,7 @@ img {
   padding-bottom: 20px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-item3-text {
     border: 2px solid #fff;
     padding-top: 50px;
@@ -3006,7 +3089,7 @@ img {
   margin-bottom: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-cont {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3026,7 +3109,7 @@ img {
   padding-bottom: 60px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-text {
     margin-top: 72px;
     padding-bottom: 0;
@@ -3039,7 +3122,7 @@ img {
   letter-spacing: .05em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-text .ttl {
     font-size: 28px;
   }
@@ -3068,7 +3151,7 @@ img {
   margin-top: 19px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-text .desc {
     font-family: "游ゴシック体", YuGothic,serif;
   }
@@ -3279,7 +3362,7 @@ img {
   margin-bottom: 27px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-cart {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -3314,7 +3397,7 @@ img {
   margin-top: 31px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-cart > a {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3339,7 +3422,7 @@ img {
   letter-spacing: .15em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-cart > a .cart-text {
     font-family: "游ゴシック体", YuGothic,serif;
   }
@@ -3349,7 +3432,7 @@ img {
   padding: 16px 15px 0 15px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-img {
     margin-top: 19px;
     margin-left: 18px;
@@ -3357,7 +3440,7 @@ img {
   }
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-img img {
     width: 498px;
     height: auto;
@@ -3375,7 +3458,7 @@ img {
   position: relative;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec .quantity {
     height: 46px;
     margin-left: 0;
@@ -3399,12 +3482,19 @@ img {
 }
 
 .ec .quantity .qt {
+  font-family: "Noto Sans JP", serif;
   font-size: 16px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 46%;
   position: absolute;
+}
+
+@media print, screen and (min-width: 768px) {
+  .ec .quantity .qt {
+    font-family: "Barlow";
+  }
 }
 
 .ec .quantity .qt-plus {
@@ -3439,7 +3529,7 @@ img {
           box-sizing: border-box;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3463,7 +3553,7 @@ img {
   margin: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .ec-footer > p {
     font-family: "游ゴシック体", YuGothic,serif;
     border: 2px solid #fff;
@@ -3505,7 +3595,7 @@ img {
   margin-bottom: 40px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .modal__content {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -3545,7 +3635,7 @@ img {
   line-height: 20px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .modal__content td {
     font-family: "游ゴシック体", YuGothic,serif;
   }
@@ -3564,7 +3654,7 @@ img {
   margin-top: 30px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .modal__content .table-right {
     padding: 50px 80px;
     margin-top: 0;
@@ -3576,7 +3666,7 @@ img {
   margin-left: 40px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .modal__content .table-right img {
     width: 269px;
     margin-left: 0;
@@ -3589,7 +3679,7 @@ img {
   border-right: none;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .modal__content .table-left {
     padding: 50px;
     border-right: 1px solid #000;
@@ -3601,7 +3691,7 @@ img {
   margin-left: 40px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .modal__content .table-left img {
     width: 300px;
     margin-left: 0;
@@ -3612,7 +3702,7 @@ img {
   font-family: "Noto Sans JP", serif;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .js-modal-open {
     font-family: "游ゴシック体", YuGothic,serif;
   }
@@ -3624,7 +3714,7 @@ img {
   padding-bottom: 36px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .faq {
     padding-top: 0;
     padding-bottom: 162px;
@@ -3635,7 +3725,7 @@ img {
   padding: 0 15px 0 15px;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .faq .inner {
     padding: 140px 150px 0 150px;
   }
@@ -3647,7 +3737,7 @@ img {
   margin: 0;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .qandalist {
     background-color: #fff;
     padding: 100px 150px;
@@ -3666,7 +3756,7 @@ img {
   letter-spacing: .15em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .faq h2 {
     font-size: 22px;
     text-align: justify;
@@ -3683,7 +3773,7 @@ img {
   letter-spacing: .1em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .faq h2 span {
     font-family: "游ゴシック体", YuGothic,serif;
     display: inline;
@@ -3702,7 +3792,7 @@ img {
   letter-spacing: .15em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .qandalist h3 {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 20px;
@@ -3731,7 +3821,7 @@ img {
   letter-spacing: .025em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .question-text {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 18px;
@@ -3749,7 +3839,7 @@ img {
   letter-spacing: .025em;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .answer-text {
     font-family: "游ゴシック体", YuGothic,serif;
     font-size: 15px;
@@ -3767,7 +3857,7 @@ img {
   font-family: 'Barlow';
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .question-text span {
     padding-right: 10px;
   }
@@ -3792,9 +3882,189 @@ img {
   opacity: 1;
 }
 
-@media print, screen and (min-width: 1100px) {
+@media print, screen and (min-width: 768px) {
   .hidden_box input:checked ~ .hidden_show {
     padding: 20px 40px;
+  }
+}
+
+@media print, screen and (min-width: 768px) and (max-width: 1100px) {
+  /* ==============================================================
+  # ヘッダー
+  =========================================================== */
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 120px;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nav-btn {
+    display: block;
+    width: 22px;
+    height: 18px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: transparent;
+    border: none;
+    font: inherit;
+    outline: none;
+    position: relative;
+    margin-right: 30px;
+  }
+  .nav.-active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+  }
+  .nav-list {
+    height: 100vh;
+    display: block;
+  }
+  .nav-list .item {
+    letter-spacing: .1em;
+    margin-left: 66px;
+  }
+  /* ==============================================================
+  # top
+  =========================================================== */
+  /* ==============================================================
+  # about
+  =========================================================== */
+  .about-inner {
+    padding: 0 30px 0 30px;
+  }
+  .about-item1 {
+    margin: 0;
+  }
+  .about-item1 h3:nth-child(2) {
+    margin-top: 20px;
+  }
+  .about-item3 {
+    margin-top: 20px;
+  }
+  .about-item4 {
+    margin-top: 10px;
+    background-color: #FAF8F2;
+    text-align: justify;
+    padding: 26px 20px 21px 20px;
+    margin-top: 19px;
+    margin-right: 30px;
+  }
+  .about-ttl {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Barlow';
+    font-size: 13px;
+    letter-spacing: .15em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .about-item5-text3 {
+    font-size: 14px;
+    line-height: 2;
+    margin-top: 70px;
+    font-family: "Noto Sans JP";
+    margin-left: 30px;
+  }
+  .about-wrap:nth-child(2) .about-item1 {
+    margin-left: 10px;
+  }
+  /* ==============================================================
+  # product
+  =========================================================== */
+  .product .inner {
+    padding: 150px 30px 0 30px;
+  }
+  .product-img2 {
+    margin-left: 30px;
+  }
+  /* ==============================================================
+  # color
+  =========================================================== */
+  .color-footer-cont {
+    width: 1000px;
+  }
+  /* ==============================================================
+  # commitment
+  =========================================================== */
+  .commitment-text-wrap h3 {
+    font-family: "Barlow";
+    border-left: 3px solid #000;
+    padding-left: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 1;
+    letter-spacing: .15em;
+    text-align: justify;
+  }
+  .commitment-text-wrap span {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .commitment-text-wrap p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    line-height: 2;
+    letter-spacing: .025em;
+    text-align: justify;
+  }
+  .vision-item1 {
+    margin: 0 0 0 30px;
+    width: 100%;
+  }
+  .vision-item2 {
+    margin: 0 30px 0 0;
+    width: 100%;
+  }
+  /* ==============================================================
+  # benefit
+  =========================================================== */
+  .benefit hr {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .benefit h2 {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .benefit-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .benefit-item {
+    width: 45%;
+  }
+  .benefit-desc p {
+    font-size: 24px;
+  }
+  .benefit-desc2 p {
+    font-size: 24px;
+  }
+  .ec-footer p {
+    padding: 60px 250px 30px 250px;
+  }
+  /* ==============================================================
+  # faq
+  =========================================================== */
+  .faq .inner {
+    padding: 140px 30px 0 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
